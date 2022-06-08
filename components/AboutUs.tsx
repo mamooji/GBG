@@ -1,16 +1,5 @@
 import React from "react";
-const people = [
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-  },
-  // More people...
-];
+import { Members } from "../assets/AboutItems";
 
 const AboutUs = () => {
   return (
@@ -29,7 +18,7 @@ const AboutUs = () => {
           </div>
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0">
-              {people.map((person) => (
+              {Members.map((person) => (
                 <li key={person.name} className="sm:py-8">
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                     <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">

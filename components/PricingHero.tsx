@@ -15,11 +15,12 @@ const PricingHero: React.FC = () => {
             Pricing
           </h2>
           <p className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
-            The right price for you, whoever you are
+            Why choose our services?
           </p>
           <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-            numquam eligendi quos odit doloribus molestiae voluptatum.
+            We are professionals in this industry with great knowledge and
+            experience to ensure the best form of action is taken for customer
+            safety and satisfaction.
           </p>
         </div>
       </div>
@@ -38,9 +39,9 @@ const PricingHero: React.FC = () => {
                           className="text-center text-2xl font-medium text-gray-900"
                           id="tier-hobby"
                         >
-                          Apartment
+                          Inspection
                         </h3>
-                        <div className="mt-4 flex items-center justify-center">
+                        {/* <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
                             <span className="mt-2 mr-2 text-4xl font-medium">
                               $
@@ -50,7 +51,7 @@ const PricingHero: React.FC = () => {
                           <span className="text-xl font-medium text-gray-500">
                             /month
                           </span>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
@@ -103,19 +104,8 @@ const PricingHero: React.FC = () => {
                         className="text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
                         id="tier-growth"
                       >
-                        Home
+                        Treatment
                       </h3>
-                      <div className="mt-4 flex items-center justify-center">
-                        <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
-                          <span className="mt-2 mr-2 text-4xl font-medium">
-                            $
-                          </span>
-                          <span className="font-extrabold">149</span>
-                        </span>
-                        <span className="text-2xl font-medium text-gray-500">
-                          /month
-                        </span>
-                      </div>
                     </div>
                   </div>
                   <div className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
@@ -157,19 +147,8 @@ const PricingHero: React.FC = () => {
                           className="text-center text-2xl font-medium text-gray-900"
                           id="tier-scale"
                         >
-                          Warehouse
+                          Prevention
                         </h3>
-                        <div className="mt-4 flex items-center justify-center">
-                          <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
-                            <span className="mt-2 mr-2 text-4xl font-medium">
-                              $
-                            </span>
-                            <span className="font-extrabold">349</span>
-                          </span>
-                          <span className="text-xl font-medium text-gray-500">
-                            /month
-                          </span>
-                        </div>
                       </div>
                     </div>
                     <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">

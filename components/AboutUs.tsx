@@ -11,9 +11,10 @@ const AboutUs = () => {
               About Us
             </h2>
             <p className="text-xl text-gray-500">
-              Nulla quam felis, enim faucibus proin velit, ornare id pretium.
-              Augue ultrices sed arcu condimentum vestibulum suspendisse.
-              Volutpat eu faucibus vivamus eget bibendum cras.
+              We are family oriented business, and we take pride in our work, a
+              dedicated team of licensed, experienced and insured exterminators
+              are ready 24/7 to help you. Our aim is to provide a pest free
+              environment for you and your loved ones.
             </p>
           </div>
           <div className="lg:col-span-2">

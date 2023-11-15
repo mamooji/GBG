@@ -10,8 +10,8 @@ const Process: React.FC = () => {
             A better way to get rid of pests
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            Our company uses integrated pest management to control all pests in
+            commercial, domestic and restaurant facilities.
           </p>
         </div>
 

@@ -1,14 +1,17 @@
 import React from "react";
 import { UsersIcon } from "@heroicons/react/outline";
+import Image from "next/image";
 
 const Stats = () => {
   return (
     <div className="relative bg-white">
       <div className="h-56 bg-indigo-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
-        <img
+        <Image
           className="w-full h-full object-cover"
-          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
-          alt="Support team"
+          src="/mouse.jpg"
+          height={1222}
+          width={1920}
+          alt="mouse"
         />
       </div>
       <div className="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16">

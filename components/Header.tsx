@@ -27,20 +27,8 @@ const Header: React.FC = () => {
                 </div>
                 <div className="flex-shrink-0 flex items-center">
                   GBG Pest control
-                  {/* <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                    alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
-                    alt="Workflow"
-                  /> */}
                 </div>
                 <div className="hidden md:ml-6 md:flex md:space-x-8">
-                  {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
-
                   {NavItems.map((item, index) => {
                     return (
                       <a
@@ -80,7 +68,6 @@ const Header: React.FC = () => {
 
           <Disclosure.Panel className="md:hidden">
             <div className="pt-2 pb-3 space-y-1">
-              {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               {NavItems.map((item, index) => {
                 return (
                   <a

@@ -41,17 +41,6 @@ const PricingHero: React.FC = () => {
                         >
                           Inspection
                         </h3>
-                        {/* <div className="mt-4 flex items-center justify-center">
-                          <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
-                            <span className="mt-2 mr-2 text-4xl font-medium">
-                              $
-                            </span>
-                            <span className="font-extrabold">79</span>
-                          </span>
-                          <span className="text-xl font-medium text-gray-500">
-                            /month
-                          </span>
-                        </div> */}
                       </div>
                     </div>
                     <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
@@ -73,7 +62,7 @@ const PricingHero: React.FC = () => {
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
                           <a
-                            href="#"
+                            href="tel:+1-519-222-7709"
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-hobby"
                           >
@@ -94,7 +83,7 @@ const PricingHero: React.FC = () => {
                   <div className="absolute inset-x-0 top-0 transform translate-y-px">
                     <div className="flex justify-center transform -translate-y-1/2">
                       <span className="inline-flex rounded-full bg-indigo-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
-                        Most popular
+                        Our Process
                       </span>
                     </div>
                   </div>
@@ -127,7 +116,7 @@ const PricingHero: React.FC = () => {
                     <div className="mt-10">
                       <div className="rounded-lg shadow-md">
                         <a
-                          href="#"
+                          href="tel:+1-519-222-7709"
                           className="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700"
                           aria-describedby="tier-growth"
                         >
@@ -170,7 +159,7 @@ const PricingHero: React.FC = () => {
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
                           <a
-                            href="#"
+                            href="tel:+1-519-222-7709"
                             className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >
